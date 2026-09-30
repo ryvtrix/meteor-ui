@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "prism-ui",
+  "version": "${version}",
+  "name": "Prism UI",
+  "description": "A fully customizable sidebar-panel GUI theme for Meteor Client: pick your colors, transparency, glow and layout.",
+  "authors": [
+    "Prism UI contributors",
+    "Based on Catppuccin Addon by Pindour"
+  ],
+  "icon": "assets/prism-ui/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "dev.prism.ui.PrismAddon"
+    ]
+  },
+  "mixins": [
+    "prism.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "150,110,235",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${mc_targets}",
+    "meteor-client": "*"
+  }
+}
