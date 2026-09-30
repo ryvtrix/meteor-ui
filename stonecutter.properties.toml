@@ -1,0 +1,23 @@
+# Mod Properties
+mod.id = "prism-ui"
+mod.name = "Prism UI"
+mod.version = "1.0.0"
+mod.group = "dev.prism.ui"
+
+# Game
+mc.version = "[VERSIONED]"
+mc.targets = "[VERSIONED]"
+
+# Loom
+loomx.loom_version = "1.17-SNAPSHOT"
+loomx.loom_remap_plugin = "net.fabricmc.fabric-loom-remap"
+loomx.loom_unobf_plugin = "net.fabricmc.fabric-loom"
+
+# Dependencies
+deps.fabric_loader = "0.15.11"
+deps.meteor_version = "[VERSIONED]"
+
+["1.21.11"]
+mc.version = "1.21.11"
+mc.targets = "1.21.11"
+deps.meteor_version = "1.21.11-SNAPSHOT"
